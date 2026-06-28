@@ -86,4 +86,23 @@ Path(
     json.dumps(
         history,
         indent=2
-  
+    )
+)
+
+for row in history:
+    print(
+        row["name"],
+        row["value"]
+    )
+
+print(
+    wallet.address
+)
+
+print(
+    transaction["nonce"]
+)
+
+print(
+    "Interaction signed"
+)
